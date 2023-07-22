@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D93F5D412A6B7417002AA631 /* Marina_Bay_DashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93F5D402A6B7417002AA631 /* Marina_Bay_DashApp.swift */; };
+		D93F5D432A6B7417002AA631 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93F5D422A6B7417002AA631 /* ContentView.swift */; };
+		D93F5D452A6B741A002AA631 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93F5D442A6B741A002AA631 /* Assets.xcassets */; };
+		D93F5D482A6B741A002AA631 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93F5D472A6B741A002AA631 /* Preview Assets.xcassets */; };
+		D93F5D522A6B741A002AA631 /* Marina_Bay_DashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93F5D512A6B741A002AA631 /* Marina_Bay_DashTests.swift */; };
+		D93F5D5C2A6B741A002AA631 /* Marina_Bay_DashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93F5D5B2A6B741A002AA631 /* Marina_Bay_DashUITests.swift */; };
+		D93F5D5E2A6B741A002AA631 /* Marina_Bay_DashUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93F5D5D2A6B741A002AA631 /* Marina_Bay_DashUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D93F5D4E2A6B741A002AA631 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D93F5D352A6B7417002AA631 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D93F5D3C2A6B7417002AA631;
+			remoteInfo = "Marina Bay Dash";
+		};
+		D93F5D582A6B741A002AA631 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D93F5D352A6B7417002AA631 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D93F5D3C2A6B7417002AA631;
+			remoteInfo = "Marina Bay Dash";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D93F5D3D2A6B7417002AA631 /* Marina Bay Dash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marina Bay Dash.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D93F5D402A6B7417002AA631 /* Marina_Bay_DashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marina_Bay_DashApp.swift; sourceTree = "<group>"; };
+		D93F5D422A6B7417002AA631 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D93F5D442A6B741A002AA631 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D93F5D472A6B741A002AA631 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D93F5D4D2A6B741A002AA631 /* Marina Bay DashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marina Bay DashTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D93F5D512A6B741A002AA631 /* Marina_Bay_DashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marina_Bay_DashTests.swift; sourceTree = "<group>"; };
+		D93F5D572A6B741A002AA631 /* Marina Bay DashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marina Bay DashUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D93F5D5B2A6B741A002AA631 /* Marina_Bay_DashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marina_Bay_DashUITests.swift; sourceTree = "<group>"; };
+		D93F5D5D2A6B741A002AA631 /* Marina_Bay_DashUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marina_Bay_DashUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D93F5D3A2A6B7417002AA631 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D93F5D4A2A6B741A002AA631 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D93F5D542A6B741A002AA631 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D93F5D342A6B7417002AA631 = {
+			isa = PBXGroup;
+			children = (
+				D93F5D3F2A6B7417002AA631 /* Marina Bay Dash */,
+				D93F5D502A6B741A002AA631 /* Marina Bay DashTests */,
+				D93F5D5A2A6B741A002AA631 /* Marina Bay DashUITests */,
+				D93F5D3E2A6B7417002AA631 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D93F5D3E2A6B7417002AA631 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D93F5D3D2A6B7417002AA631 /* Marina Bay Dash.app */,
+				D93F5D4D2A6B741A002AA631 /* Marina Bay DashTests.xctest */,
+				D93F5D572A6B741A002AA631 /* Marina Bay DashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D93F5D3F2A6B7417002AA631 /* Marina Bay Dash */ = {
+			isa = PBXGroup;
+			children = (
+				D93F5D402A6B7417002AA631 /* Marina_Bay_DashApp.swift */,
+				D93F5D422A6B7417002AA631 /* ContentView.swift */,
+				D93F5D442A6B741A002AA631 /* Assets.xcassets */,
+				D93F5D462A6B741A002AA631 /* Preview Content */,
+			);
+			path = "Marina Bay Dash";
+			sourceTree = "<group>";
+		};
+		D93F5D462A6B741A002AA631 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D93F5D472A6B741A002AA631 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D93F5D502A6B741A002AA631 /* Marina Bay DashTests */ = {
+			isa = PBXGroup;
+			children = (
+				D93F5D512A6B741A002AA631 /* Marina_Bay_DashTests.swift */,
+			);
+			path = "Marina Bay DashTests";
+			sourceTree = "<group>";
+		};
+		D93F5D5A2A6B741A002AA631 /* Marina Bay DashUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D93F5D5B2A6B741A002AA631 /* Marina_Bay_DashUITests.swift */,
+				D93F5D5D2A6B741A002AA631 /* Marina_Bay_DashUITestsLaunchTests.swift */,
+			);
+			path = "Marina Bay DashUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D93F5D3C2A6B7417002AA631 /* Marina Bay Dash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D93F5D612A6B741A002AA631 /* Build configuration list for PBXNativeTarget "Marina Bay Dash" */;
+			buildPhases = (
+				D93F5D392A6B7417002AA631 /* Sources */,
+				D93F5D3A2A6B7417002AA631 /* Frameworks */,
+				D93F5D3B2A6B7417002AA631 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Marina Bay Dash";
+			productName = "Marina Bay Dash";
+			productReference = D93F5D3D2A6B7417002AA631 /* Marina Bay Dash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D93F5D4C2A6B741A002AA631 /* Marina Bay DashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D93F5D642A6B741A002AA631 /* Build configuration list for PBXNativeTarget "Marina Bay DashTests" */;
+			buildPhases = (
+				D93F5D492A6B741A002AA631 /* Sources */,
+				D93F5D4A2A6B741A002AA631 /* Frameworks */,
+				D93F5D4B2A6B741A002AA631 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D93F5D4F2A6B741A002AA631 /* PBXTargetDependency */,
+			);
+			name = "Marina Bay DashTests";
+			productName = "Marina Bay DashTests";
+			productReference = D93F5D4D2A6B741A002AA631 /* Marina Bay DashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D93F5D562A6B741A002AA631 /* Marina Bay DashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D93F5D672A6B741A002AA631 /* Build configuration list for PBXNativeTarget "Marina Bay DashUITests" */;
+			buildPhases = (
+				D93F5D532A6B741A002AA631 /* Sources */,
+				D93F5D542A6B741A002AA631 /* Frameworks */,
+				D93F5D552A6B741A002AA631 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D93F5D592A6B741A002AA631 /* PBXTargetDependency */,
+			);
+			name = "Marina Bay DashUITests";
+			productName = "Marina Bay DashUITests";
+			productReference = D93F5D572A6B741A002AA631 /* Marina Bay DashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D93F5D352A6B7417002AA631 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D93F5D3C2A6B7417002AA631 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D93F5D4C2A6B741A002AA631 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D93F5D3C2A6B7417002AA631;
+					};
+					D93F5D562A6B741A002AA631 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D93F5D3C2A6B7417002AA631;
+					};
+				};
+			};
+			buildConfigurationList = D93F5D382A6B7417002AA631 /* Build configuration list for PBXProject "Marina Bay Dash" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D93F5D342A6B7417002AA631;
+			productRefGroup = D93F5D3E2A6B7417002AA631 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D93F5D3C2A6B7417002AA631 /* Marina Bay Dash */,
+				D93F5D4C2A6B741A002AA631 /* Marina Bay DashTests */,
+				D93F5D562A6B741A002AA631 /* Marina Bay DashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D93F5D3B2A6B7417002AA631 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93F5D482A6B741A002AA631 /* Preview Assets.xcassets in Resources */,
+				D93F5D452A6B741A002AA631 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D93F5D4B2A6B741A002AA631 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D93F5D552A6B741A002AA631 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D93F5D392A6B7417002AA631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93F5D432A6B7417002AA631 /* ContentView.swift in Sources */,
+				D93F5D412A6B7417002AA631 /* Marina_Bay_DashApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D93F5D492A6B741A002AA631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93F5D522A6B741A002AA631 /* Marina_Bay_DashTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D93F5D532A6B741A002AA631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93F5D5C2A6B741A002AA631 /* Marina_Bay_DashUITests.swift in Sources */,
+				D93F5D5E2A6B741A002AA631 /* Marina_Bay_DashUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D93F5D4F2A6B741A002AA631 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D93F5D3C2A6B7417002AA631 /* Marina Bay Dash */;
+			targetProxy = D93F5D4E2A6B741A002AA631 /* PBXContainerItemProxy */;
+		};
+		D93F5D592A6B741A002AA631 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D93F5D3C2A6B7417002AA631 /* Marina Bay Dash */;
+			targetProxy = D93F5D582A6B741A002AA631 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D93F5D5F2A6B741A002AA631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D93F5D602A6B741A002AA631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D93F5D622A6B741A002AA631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Marina Bay Dash/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sg.tk.Marina-Bay-Dash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D93F5D632A6B741A002AA631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Marina Bay Dash/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sg.tk.Marina-Bay-Dash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D93F5D652A6B741A002AA631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sg.tk.Marina-Bay-DashTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marina Bay Dash.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Marina Bay Dash";
+			};
+			name = Debug;
+		};
+		D93F5D662A6B741A002AA631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sg.tk.Marina-Bay-DashTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marina Bay Dash.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Marina Bay Dash";
+			};
+			name = Release;
+		};
+		D93F5D682A6B741A002AA631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sg.tk.Marina-Bay-DashUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Marina Bay Dash";
+			};
+			name = Debug;
+		};
+		D93F5D692A6B741A002AA631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sg.tk.Marina-Bay-DashUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Marina Bay Dash";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D93F5D382A6B7417002AA631 /* Build configuration list for PBXProject "Marina Bay Dash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D93F5D5F2A6B741A002AA631 /* Debug */,
+				D93F5D602A6B741A002AA631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D93F5D612A6B741A002AA631 /* Build configuration list for PBXNativeTarget "Marina Bay Dash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D93F5D622A6B741A002AA631 /* Debug */,
+				D93F5D632A6B741A002AA631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D93F5D642A6B741A002AA631 /* Build configuration list for PBXNativeTarget "Marina Bay DashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D93F5D652A6B741A002AA631 /* Debug */,
+				D93F5D662A6B741A002AA631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D93F5D672A6B741A002AA631 /* Build configuration list for PBXNativeTarget "Marina Bay DashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D93F5D682A6B741A002AA631 /* Debug */,
+				D93F5D692A6B741A002AA631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D93F5D352A6B7417002AA631 /* Project object */;
+}
